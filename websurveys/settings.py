@@ -26,6 +26,8 @@ SECRET_KEY = 'j_u$+oy96)618bl@%-*_#tpg(v1auqvb151a#8c@_n_%h_m+n9'
 DEBUG = True
 
 ALLOWED_HOSTS = [u'Orpheon.pythonanywhere.com']
+if DEBUG:
+    ALLOWED_HOSTS.append(u'127.0.0.1')
 
 
 # Application definition
